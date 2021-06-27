@@ -18,7 +18,10 @@ export default function Home( {posts} ) {
     <Header />
 
     <main className="flex" >
-        <Sidebar />
+        {/* <div className="hidden sm:inline-flex">
+           <Sidebar  />
+        </div> */}
+        <Sidebar  />
         <Feed posts={posts} />
         <Widgets />
 
