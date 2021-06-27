@@ -20,7 +20,7 @@ function InputBox() {
         message:inputRef.current.value,
         name:'sammed',
         email:'sammed.sankonatti45@gmail.com',
-        image: 'https://wallpapercave.com/wp/wp6390941.jpg',
+        image: 'https://avatars.githubusercontent.com/u/82900434?v=4',
         timestamp : firebase.firestore.FieldValue.serverTimestamp(),
     }).then((doc) => {
         if (imageToPost) {
@@ -80,7 +80,7 @@ function InputBox() {
             <div className="flex space-x-4 p-4 items-center" >
                 <Image
                 className="rounded-full"
-                src="https://wallpapercave.com/wp/wp6390941.jpg"
+                src="https://avatars.githubusercontent.com/u/82900434?v=4"
                 width={40}
                 height={40}
                 layout="fixed"
