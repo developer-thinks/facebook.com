@@ -119,7 +119,7 @@ function InputBox() {
                     onClick={()=> filepickerRef.current.click()}
                     className="inputIcon">
                     <CameraIcon className="h-7 text-green-400" />
-                    <p className="text-xs sm:text-sm xl:text-base">Photo/Video</p>
+                    <p className="text-xs sm:text-sm xl:text-base">Photo</p>
                     <input type="file" hidden onChange={addImageToPost}  ref={filepickerRef}  />
                 </div>
 
