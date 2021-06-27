@@ -112,7 +112,7 @@ function InputBox() {
             <div className="flex justify-evenly p-3 border-t"> 
                 <div className="inputIcon">
                     <VideoCameraIcon className="h-7 text-red-500" />
-                    <p className="text-xs sm:text-sm xl:text-base">Live Video</p>
+                    <p className="text-xs sm:text-sm xl:text-base">Live </p>
                 </div>
 
                 <div
@@ -125,7 +125,7 @@ function InputBox() {
 
                 <div className="inputIcon">
                     <EmojiHappyIcon className="h-7 text-yellow-300" />
-                    <p className="text-xs sm:text-sm xl:text-base">Feeling/Activity</p>
+                    <p className="text-xs sm:text-sm xl:text-base">Feeling</p>
                 </div>
             </div>
 

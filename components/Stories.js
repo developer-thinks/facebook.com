@@ -22,11 +22,11 @@ const stories = [
     src: "https://wallpapercave.com/uwp/uwp942202.jpeg",
     profile: "https://wallpapercave.com/uwp/uwp942201.jpeg",
   },
-  {
-    name: "Rishabh pant",
-    src: "https://wallpapercave.com/wp/wp9025478.jpg",
-    profile: "https://wallpapercave.com/wp/wp9025581.jpg",
-  },
+  // {
+  //   name: "Rishabh pant",
+  //   src: "https://wallpapercave.com/wp/wp9025478.jpg",
+  //   profile: "https://wallpapercave.com/wp/wp9025581.jpg",
+  // },
 ];
 
 function Stories() {
